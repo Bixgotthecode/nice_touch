@@ -12,8 +12,6 @@ import time
 # Initialize OSC client
 osc_client = udp_client.SimpleUDPClient("127.0.0.1", 4567)
 
-# change 1
-
 # Initialize MediaPipe Hands
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(
